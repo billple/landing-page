@@ -1,0 +1,24 @@
+/** Global Element Styling **/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', 'Roboto';
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/** Global Class Styles **/
