@@ -21,4 +21,47 @@ a {
   text-decoration: none;
 }
 
+header {
+  display: flex;
+}
+
+#header-img {
+  height: 100px;
+  width: 120px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form {
+  margin: 10px auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/** Video promo **/
+#videopromo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+}
 /** Global Class Styles **/
+
+.nav-link {
+  padding: 10px;
+  margin: 10px;
+}
